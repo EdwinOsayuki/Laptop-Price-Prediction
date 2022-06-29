@@ -42,9 +42,6 @@ Description - Made new columns for the company and graphic card <br>
 # Data Preprocessing
 There are a few columns which are categorical here but they actually contain numerical values.So we need to convert few categorical columns to numerical columns. These are DDR_Version,Generation,Storage_GB,Price.
 
-# Exploratory Data Analysis
-![](images/processor_type.png)   ![](images/diskdrive.png) <br/>
-![](images/RAM_GB.png)
 
 # Model Building
 <li>Traditional Method</li>
@@ -55,9 +52,5 @@ Used the auto ML library in python called PyCaret. Compared all the regression m
 
 Link to my article: <a href="https://towardsdatascience.com/leverage-the-power-of-pycaret-d5c3da3adb9b">https://towardsdatascience.com/leverage-the-power-of-pycaret-d5c3da3adb9b</a>
 
-# Model Deployment
-I have deployed the model using Streamlit library and flask framework on Heroku which is a Platform As A Service(PAAS)
-![](images/heroku_app.png)
-![](images/heroku_app2.png)
 
 Web application: <a href="https://laptop-prices-predictor.herokuapp.com/">https://laptop-prices-predictor.herokuapp.com/</a>
